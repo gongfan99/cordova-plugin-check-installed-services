@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-check-installed-services",
+  "version": "0.0.1",
+  "description": "Simple plugin that checks if a service is installed. Currently only check if Google Play Services is installed.",
+  "cordova": {
+    "id": "cordova-plugin-check-installed-services",
+    "platforms": [
+      "android",
+      "ios",
+      "wp7"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongfan99/cordova-plugin-check-installed-services.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp7"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "author": "Sam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gongfan99/cordova-plugin-check-installed-services/issues"
+  },
+  "homepage": "https://github.com/gongfan99/cordova-plugin-check-installed-services#readme"
+}
