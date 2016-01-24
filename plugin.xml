@@ -26,20 +26,4 @@
     <source-file src="src/android/CheckInstalledServices.java" target-dir="src/com/example/plugin/"/>
   </platform>
 
-  <platform name="ios">
-    
-    <config-file target="config.xml" parent="/widget">
-      <feature name="CheckInstalledServices">
-        <param name="ios-package" value="HWPCheckInstalledServices" />
-      </feature>
-    </config-file>
-
-    <header-file src="src/ios/HWPCheckInstalledServices.h" target-dir="CheckInstalledServicesPlugin"/>
-    <source-file src="src/ios/HWPCheckInstalledServices.m" target-dir="CheckInstalledServicesPlugin"/>
-  </platform>
-
-  <platform name="wp7">
-    <source-file src="src/wp7/CheckInstalledServices.cs"/>
-  </platform>
-
 </plugin>
